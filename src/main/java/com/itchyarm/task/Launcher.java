@@ -11,8 +11,7 @@ public class Launcher {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Task task = new TaskImpl();
-		task.setName("Logging test");
+		logger.debug("Launching itchy-arm application.");
 	}
 
 }
